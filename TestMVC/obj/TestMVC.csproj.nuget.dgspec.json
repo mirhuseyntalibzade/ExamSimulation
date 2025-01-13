@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestMVC\\TestMVC.csproj": {}
+    "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestMVC\\TestMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestBL\\TestBL.csproj": {
+    "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestBL\\TestBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestBL\\TestBL.csproj",
+        "projectUniqueName": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestBL\\TestBL.csproj",
         "projectName": "TestBL",
-        "projectPath": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestBL\\TestBL.csproj",
-        "packagesPath": "C:\\Users\\Classtime\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestBL\\obj\\",
+        "projectPath": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestBL\\TestBL.csproj",
+        "packagesPath": "C:\\Users\\My Computer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestBL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Classtime\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\My Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestCORE\\TestCORE.csproj": {
-                "projectPath": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestCORE\\TestCORE.csproj"
+              "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestCORE\\TestCORE.csproj": {
+                "projectPath": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestCORE\\TestCORE.csproj"
               },
-              "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestDAL\\TestDAL.csproj": {
-                "projectPath": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestDAL\\TestDAL.csproj"
+              "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestDAL\\TestDAL.csproj": {
+                "projectPath": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestDAL\\TestDAL.csproj"
               }
             }
           }
@@ -89,24 +89,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestCORE\\TestCORE.csproj": {
+    "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestCORE\\TestCORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestCORE\\TestCORE.csproj",
+        "projectUniqueName": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestCORE\\TestCORE.csproj",
         "projectName": "TestCORE",
-        "projectPath": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestCORE\\TestCORE.csproj",
-        "packagesPath": "C:\\Users\\Classtime\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestCORE\\obj\\",
+        "projectPath": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestCORE\\TestCORE.csproj",
+        "packagesPath": "C:\\Users\\My Computer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestCORE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Classtime\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\My Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -160,24 +160,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestDAL\\TestDAL.csproj": {
+    "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestDAL\\TestDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestDAL\\TestDAL.csproj",
+        "projectUniqueName": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestDAL\\TestDAL.csproj",
         "projectName": "TestDAL",
-        "projectPath": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestDAL\\TestDAL.csproj",
-        "packagesPath": "C:\\Users\\Classtime\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestDAL\\obj\\",
+        "projectPath": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestDAL\\TestDAL.csproj",
+        "packagesPath": "C:\\Users\\My Computer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestDAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Classtime\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\My Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -193,8 +193,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestCORE\\TestCORE.csproj": {
-                "projectPath": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestCORE\\TestCORE.csproj"
+              "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestCORE\\TestCORE.csproj": {
+                "projectPath": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestCORE\\TestCORE.csproj"
               }
             }
           }
@@ -249,24 +249,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestMVC\\TestMVC.csproj": {
+    "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestMVC\\TestMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestMVC\\TestMVC.csproj",
+        "projectUniqueName": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestMVC\\TestMVC.csproj",
         "projectName": "TestMVC",
-        "projectPath": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestMVC\\TestMVC.csproj",
-        "packagesPath": "C:\\Users\\Classtime\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestMVC\\obj\\",
+        "projectPath": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestMVC\\TestMVC.csproj",
+        "packagesPath": "C:\\Users\\My Computer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Classtime\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\My Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -282,11 +282,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestBL\\TestBL.csproj": {
-                "projectPath": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestBL\\TestBL.csproj"
+              "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestBL\\TestBL.csproj": {
+                "projectPath": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestBL\\TestBL.csproj"
               },
-              "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestDAL\\TestDAL.csproj": {
-                "projectPath": "C:\\Users\\Classtime\\source\\repos\\ExamSimulation\\TestDAL\\TestDAL.csproj"
+              "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestDAL\\TestDAL.csproj": {
+                "projectPath": "C:\\Users\\My Computer\\Desktop\\ExamSimulation\\TestDAL\\TestDAL.csproj"
               }
             }
           }
@@ -336,7 +336,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

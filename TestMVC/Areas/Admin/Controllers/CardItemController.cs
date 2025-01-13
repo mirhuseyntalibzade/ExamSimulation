@@ -13,8 +13,8 @@ using TestCORE.Models;
 namespace TestMVC.Areas.Admin.Controllers;
 
 [Area("Admin")]
-[Authorize]
-[Authorize(Roles = "Admin")]
+//[Authorize]
+//[Authorize(Roles = "Admin")]
 public class CardItemController : Controller
 {
     readonly ICardItemService _service;
@@ -51,7 +51,7 @@ public class CardItemController : Controller
         {
             foreach (var failure in results.Errors)
             {
-                ModelState.AddModelError("",failure.ErrorMessage);
+                ModelState.AddModelError("", failure.ErrorMessage);
             }
             return View();
         }

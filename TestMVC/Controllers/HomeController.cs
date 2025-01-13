@@ -32,30 +32,34 @@ namespace TestMVC.Controllers
             }
         }
 
-        public async Task<IActionResult> SeedAdmin()
-        {
-            await _roleManager.CreateAsync(new IdentityRole("Admin"));
-            return Ok("success");
-        }
 
-        public async Task<IActionResult> CreateAdmin()
-        {
-            var newAdmin = new AppUser
-            {
-                FirstName = "Test",
-                LastName =  "Testov",
-                UserName = "admin",
-                Email = "admin@example.com"
-            };
 
-            var result = await _userManager.CreateAsync(newAdmin, "AdminPassword123!");
+        //Manually adding admin user and admin role to database
 
-            if (!result.Succeeded)
-            {
-                return BadRequest(":(");
-            }
-                await _userManager.AddToRoleAsync(newAdmin, "Admin");
-                return Ok("success");
-        }
+        //public async Task<IActionResult> SeedAdmin()
+        //{
+        //    await _roleManager.CreateAsync(new IdentityRole("Admin"));
+        //    return Ok("success");
+        //}
+
+        //public async Task<IActionResult> CreateAdmin()
+        //{
+        //    var newAdmin = new AppUser
+        //    {
+        //        FirstName = "Test",
+        //        LastName =  "Testov",
+        //        UserName = "admin",
+        //        Email = "admin@example.com"
+        //    };
+
+        //    var result = await _userManager.CreateAsync(newAdmin, "AdminPassword123!");
+
+        //    if (!result.Succeeded)
+        //    {
+        //        return BadRequest(":(");
+        //    }
+        //        await _userManager.AddToRoleAsync(newAdmin, "Admin");
+        //        return Ok("success");
+        //}
     }
 }

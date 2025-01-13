@@ -39,12 +39,29 @@ internal class Program
         });
         
 
+
         var app = builder.Build();
+
 
         app.UseStaticFiles();
         app.UseAuthentication();
         app.UseAuthorization();
 
+        using (var scope = app.Services.CreateScope())
+        {
+            var services = scope.ServiceProvider;
+            try
+            {
+                await DatabaseSeeder.SeedRolesAndAdmin(services);
+                Console.WriteLine($"successss o yeaaaaah.");
+
+            }
+            catch (Exception ex)
+            {
+                // Log errors or handle exceptions here
+                Console.WriteLine($"Error seeding database: {ex.Message}");
+            }
+        }
         
         
         app.MapControllerRoute(
@@ -57,20 +74,7 @@ internal class Program
             pattern: "{controller=Home}/{action=Index}/{id?}"
         );
 
-        //SeedDatabase(builder.Services).Wait();
-
         app.Run();
 
-    }
-
-    private static async Task SeedDatabase(IServiceCollection services)
-    {
-        using (var scope = services.BuildServiceProvider().CreateScope())
-        {
-            var serviceProvider = scope.ServiceProvider;
-            var seeder = serviceProvider.GetRequiredService<DatabaseSeeder>();
-
-            await seeder.SeedAsync();
-        }
     }
 }

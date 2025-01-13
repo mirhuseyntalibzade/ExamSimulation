@@ -5,56 +5,40 @@ namespace TestMVC
 {
     public class DatabaseSeeder
     {
-        private readonly IServiceProvider _serviceProvider;
-        private readonly UserManager<AppUser> _userManager;
-        private readonly RoleManager<IdentityRole> _roleManager;
-
-        public DatabaseSeeder(IServiceProvider serviceProvider,
-               UserManager<AppUser> userManager,
-               RoleManager<IdentityRole> roleManager)
+        public static async Task SeedRolesAndAdmin(IServiceProvider serviceProvider)
         {
-            _serviceProvider = serviceProvider;
-            _userManager = userManager;
-            _roleManager = roleManager;
-        }
+            var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            var userManager = serviceProvider.GetRequiredService<UserManager<AppUser>>();
 
-        public async Task SeedAsync()
-        {
-            await SeedRolesAsync();
-
-            await SeedUsersAsync();
-        }
-
-        private async Task SeedRolesAsync()
-        {
-            string[] roleNames = { "Admin", "User" };
-
-            foreach (var roleName in roleNames)
+            // Seed Roles
+            var roles = new[] { "Admin", "User" };
+            foreach (var role in roles)
             {
-                var roleExist = await _roleManager.RoleExistsAsync(roleName);
-                if (!roleExist)
+                if (!await roleManager.RoleExistsAsync(role))
                 {
-                    await _roleManager.CreateAsync(new IdentityRole(roleName));
+                    await roleManager.CreateAsync(new IdentityRole(role));
                 }
             }
-        }
 
-        private async Task SeedUsersAsync()
-        {
-            var adminUser = await _userManager.FindByEmailAsync("admin@example.com");
-            if (adminUser == null)
+            // Seed Admin User
+            var adminEmail = "admin@example.com";
+            var adminPassword = "Admin@123";
+
+            if (await userManager.FindByEmailAsync(adminEmail) == null)
             {
-                var newAdmin = new AppUser
+                var adminUser = new AppUser
                 {
-                    UserName = "admin",
-                    Email = "admin@example.com"
+                    FirstName = "Admin",
+                    LastName = "Admin",
+                    UserName = adminEmail,
+                    Email = adminEmail,
+                    EmailConfirmed = true
                 };
 
-                var result = await _userManager.CreateAsync(newAdmin, "AdminPassword123!");
-
+                var result = await userManager.CreateAsync(adminUser, adminPassword);
                 if (result.Succeeded)
                 {
-                    await _userManager.AddToRoleAsync(newAdmin, "Admin");
+                    await userManager.AddToRoleAsync(adminUser, "Admin");
                 }
             }
         }
