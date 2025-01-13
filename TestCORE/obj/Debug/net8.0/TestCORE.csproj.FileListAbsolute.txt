@@ -1,0 +1,13 @@
+C:\Users\Classtime\source\repos\ExamSimulation\TestCORE\bin\Debug\net8.0\TestCORE.deps.json
+C:\Users\Classtime\source\repos\ExamSimulation\TestCORE\bin\Debug\net8.0\TestCORE.dll
+C:\Users\Classtime\source\repos\ExamSimulation\TestCORE\bin\Debug\net8.0\TestCORE.pdb
+C:\Users\Classtime\source\repos\ExamSimulation\TestCORE\obj\Debug\net8.0\TestCORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Classtime\source\repos\ExamSimulation\TestCORE\obj\Debug\net8.0\TestCORE.AssemblyInfoInputs.cache
+C:\Users\Classtime\source\repos\ExamSimulation\TestCORE\obj\Debug\net8.0\TestCORE.AssemblyInfo.cs
+C:\Users\Classtime\source\repos\ExamSimulation\TestCORE\obj\Debug\net8.0\TestCORE.csproj.CoreCompileInputs.cache
+C:\Users\Classtime\source\repos\ExamSimulation\TestCORE\obj\Debug\net8.0\TestCORE.sourcelink.json
+C:\Users\Classtime\source\repos\ExamSimulation\TestCORE\obj\Debug\net8.0\TestCORE.dll
+C:\Users\Classtime\source\repos\ExamSimulation\TestCORE\obj\Debug\net8.0\refint\TestCORE.dll
+C:\Users\Classtime\source\repos\ExamSimulation\TestCORE\obj\Debug\net8.0\TestCORE.pdb
+C:\Users\Classtime\source\repos\ExamSimulation\TestCORE\obj\Debug\net8.0\ref\TestCORE.dll
+C:\Users\Classtime\source\repos\ExamSimulation\TestCORE\obj\Debug\net8.0\TestCORE.csproj.AssemblyReference.cache
